@@ -1,6 +1,8 @@
 # AccessKeyVaultThroughSecureWebAPI
 This is a Https Web API that would access KeyVault secret
 
+Note: The entire ARM template of the Resource group is checked in with file "ExportedTemplate-TestResourceGroup.zip"
+
 End goal:
 To query Azure SQL Datasbase by first fetching the connection string from a KeyVault secret and then using the connection string to fetch data from Azure SQL Database and display it on screen using an App Service instance that has ASP.NET Web API deployed through Git.
 To fetch KeyVault secret, we first creat a "Managed Identity" calld "userassignedmanagedidentity" (better read as UserAssignedManagedIdentity).
