@@ -44,6 +44,7 @@ Steps:
     f. Select the "userassignedmanagedidentity" and add
     g. Make sure to save it
     h. In configuration section save "AZURE_CLIENT_ID" as the key and value of client id for "userassignedmanagedidentity"
+       (Look at this link: https://medium.com/@woeterman_94/azure-app-service-http-400-while-trying-to-connect-to-azure-keyvault-8adc0e199766)
     
 4. Create a new instance of "Azure SQL"
     a. Create a server and add a database
