@@ -43,6 +43,7 @@ Steps:
     e. From the section on the left start typing "userassignedmanagedidentity"
     f. Select the "userassignedmanagedidentity" and add
     g. Make sure to save it
+    h. In configuration section save "AZURE_CLIENT_ID" as the key and value of client id for "userassignedmanagedidentity"
     
 4. Create a new instance of "Azure SQL"
     a. Create a server and add a database
